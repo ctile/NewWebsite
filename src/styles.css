@@ -1,0 +1,77 @@
+body {
+  font-family: Verdana, Helvetica, Arial, sans-serif;
+  text-align: center;
+  color: blue;
+  background-color: lightblue;
+  border: 5px solid blue;
+  border-radius: 50px;
+  padding: 20px;
+}
+h1,
+h2 {
+  font-family: copperplate, sans-serif;
+}
+h1 {
+  font-size: 300%;
+  text-decoration: underline;
+  font-weight: bold;
+  color: red;
+}
+h2 {
+  font-size: 200%;
+  color: blue;
+}
+
+img {
+  border: 5px solid red;
+}
+p {
+  padding: 0px 100px 0px 100px;
+}
+#copyright {
+  color: red;
+}
+ul {
+  padding: 0px 300px 0px 300px;
+}
+#moto {
+  border-bottom: 4px dotted red;
+}
+#trails {
+  border-bottom: 4px dotted red;
+}
+#ebike {
+  border-bottom: 4px dotted red;
+}
+.racing {
+  font-weight: bold;
+}
+.power {
+  font-weight: bold;
+}
+.carbon {
+  color: green;
+  font-weight: bold;
+}
+a:link {
+  color: #ff0000;
+}
+a:visited {
+  color: #333333;
+}
+a.active {
+  color: #ff0000;
+}
+a.focus {
+  border: #0d5353 thick solid;
+}
+a.hover {
+  color: lightblue;
+  transition: 500ms;
+}
+
+@media print {
+  body {
+    font-family: webdings, fantasy;
+  }
+}
