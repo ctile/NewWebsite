@@ -7,6 +7,17 @@ body {
   border-radius: 50px;
   padding: 20px;
 }
+.table {
+  display: table;
+  border-spacing: 10px;
+}
+.row {
+  display: table-row;
+}
+.table-cell {
+  display: table-cell;
+  vertical-align: top;
+}
 #header {
   background-color: #1a2588;
   margin: 10px 10px 0 10px; /* removes bottom margin which does not collapse with top border-spacing */
@@ -29,6 +40,15 @@ body {
   border: 4px dotted rgb(255, 255, 255);
   border-radius: 50px;
 }
+#sidebar {
+  background-color: #0130caab;
+  border: 4px dotted rgb(255, 255, 255);
+  border-radius: 50px;
+  font-size: 105%;
+  padding: 15px;
+  margin: 0px 10px 10px 10px;
+  width: 280px;
+}
 #copyright {
   color: red;
 }
@@ -50,6 +70,9 @@ h1 {
 h2 {
   font-size: 200%;
   color: rgb(255, 255, 255);
+}
+h3 {
+  text-decoration: underline;
 }
 
 img {
