@@ -5,7 +5,7 @@ import ThumbnailLink from "../ThumbnailLink.js";
 
 function Moto() {
   return (
-    <div>
+    <div id="landing">
       <h1>MotoMania - Motocross </h1>
       <ThumbnailLink
         lowResThumb={motoT}

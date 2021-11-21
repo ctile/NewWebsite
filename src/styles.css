@@ -1,11 +1,41 @@
 body {
   font-family: Verdana, Helvetica, Arial, sans-serif;
   text-align: center;
-  color: blue;
+  color: rgb(255, 255, 255);
   background-color: lightblue;
   border: 5px solid blue;
   border-radius: 50px;
   padding: 20px;
+}
+#header {
+  background-color: #1a2588;
+  margin: 10px 10px 0 10px; /* removes bottom margin which does not collapse with top border-spacing */
+  height: 160px;
+  border: 4px dotted rgb(255, 255, 255);
+  border-radius: 50px;
+}
+#moto {
+  background-color: #1a2588;
+  border: 4px dotted rgb(255, 255, 255);
+  border-radius: 50px;
+}
+#trails {
+  background-color: #1a2588;
+  border: 4px dotted rgb(255, 255, 255);
+  border-radius: 50px;
+}
+#ebike {
+  background-color: #1a2588;
+  border: 4px dotted rgb(255, 255, 255);
+  border-radius: 50px;
+}
+#copyright {
+  color: red;
+}
+#landing {
+  background-color: #1a2588;
+  padding: 20px;
+  border-radius: 50px;
 }
 h1,
 h2 {
@@ -15,34 +45,24 @@ h1 {
   font-size: 300%;
   text-decoration: underline;
   font-weight: bold;
-  color: red;
+  color: rgb(255, 255, 255);
 }
 h2 {
   font-size: 200%;
-  color: blue;
+  color: rgb(255, 255, 255);
 }
 
 img {
-  border: 5px solid red;
+  border: 5px solid rgb(255, 255, 255);
 }
 p {
   padding: 0px 100px 0px 100px;
 }
-#copyright {
-  color: red;
-}
+
 ul {
   padding: 0px 300px 0px 300px;
 }
-#moto {
-  border-bottom: 4px dotted red;
-}
-#trails {
-  border-bottom: 4px dotted red;
-}
-#ebike {
-  border-bottom: 4px dotted red;
-}
+
 .racing {
   font-weight: bold;
 }
@@ -57,13 +77,13 @@ a:link {
   color: #ff0000;
 }
 a:visited {
-  color: #333333;
+  color: #ffffff;
 }
 a.active {
-  color: #ff0000;
+  color: #00ccff;
 }
 a.focus {
-  border: #0d5353 thick solid;
+  border: #1a0077 thick solid;
 }
 a.hover {
   color: lightblue;

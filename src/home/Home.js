@@ -10,9 +10,11 @@ import ThumbnailLink from "./ThumbnailLink.js";
 function Home() {
   return (
     <div>
-      <h1 id="top">
-        MotoMania <br /> <q>Find the bike for you</q>
-      </h1>
+      <div id="header">
+        <h1 id="top">
+          MotoMania <br /> <q>Find the bike for you</q>
+        </h1>
+      </div>
 
       <br />
 
@@ -42,6 +44,8 @@ function Home() {
         </p>
       </div>
 
+      <br />
+
       <div id="trails">
         <Link to="trail/trail.html" title="Trail Dirt Bikes">
           <h2>Trail/Off-road</h2>
@@ -64,6 +68,8 @@ function Home() {
           take you directly to the most current production of motorcycles.
         </p>
       </div>
+
+      <br />
 
       <div id="ebike">
         <Link to="ebike/ebike.html" title="Eletric Dirt Bikes">

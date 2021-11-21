@@ -5,7 +5,7 @@ import ThumbnailLink from "../ThumbnailLink.js";
 
 function Ebike() {
   return (
-    <div>
+    <div id="landing">
       <h1>MotoMania - E-Bike </h1>
       <ThumbnailLink
         lowResThumb={ebikeT}
