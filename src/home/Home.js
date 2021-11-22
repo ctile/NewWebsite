@@ -38,11 +38,12 @@ function Home() {
                 <span class="racing">
                   <em>competitive</em> racing
                 </span>
-                . Here you will find an unordered list of the most reputable
-                brands in the industry. These links will take you directly to
-                the exact location on their website for motocross dirt bikes,
-                saving you search time! Take a look at each website to find the
-                best moto bike for you.
+                . Motocross dirt bikes are geared towards racing and track
+                oriented riding. Here you will find an unordered list of the
+                most reputable brands in the industry. These links will take you
+                directly to the exact location on their website for motocross
+                dirt bikes, saving you search time! Take a look at each brand to
+                find the best moto bike for you.
               </p>
             </div>
 
@@ -62,11 +63,13 @@ function Home() {
               />
               <p>
                 Like riding trails near the{" "}
-                <span class="power">power lines?</span> Here you will find an
-                unordered list of the most reputable brands in the industry.
-                These links will take you directly to the exact location on
-                their website for trail bikes, saving you search time! Take a
-                look at each website to find the best trail bike for you.
+                <span class="power">power lines?</span> Trail bikes are geared
+                towards off-road riding, with more focus on slower spead
+                technical riding. Here you will find an unordered list of the
+                most reputable brands in the industry. These links will take you
+                directly to the exact location on their website for trail bikes,
+                saving you search time! Take a look at each website to find the
+                best trail bike for you.
               </p>
             </div>
 
@@ -86,11 +89,12 @@ function Home() {
               />
               <p>
                 Concerned about <span class="carbon">carbon footprint?</span>{" "}
-                Lets dive into the eletric bikes of the moto world. Here you
-                will find an unordered list of the most reputable brands in the
-                industry. These links will take you directly to the exact
-                location on their website for ebikes, saving you search time!
-                Take a look at each website to find the best ebike for you.
+                Lets dive into the eletric bikes of the moto world. Eletric dirt
+                bikes are new to the moto-scene. Here you will find an unordered
+                list of the most reputable brands in the industry. These links
+                will take you directly to the exact location on their website
+                for ebikes, saving you search time! Take a look at each website
+                to find the best ebike for you.
               </p>
             </div>
           </div>
