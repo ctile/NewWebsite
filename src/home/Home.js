@@ -93,49 +93,48 @@ function Home() {
                 Take a look at each website to find the best ebike for you.
               </p>
             </div>
-            <div id="sidebar" class="table-cell">
-              <h3>Supercross Standings</h3>
-              <p>
-                View Current Monster Energy Supercross Statndings right{" "}
-                <Link
-                  to={{
-                    pathname:
-                      "https://www.supercrosslive.com/championship-standings"
-                  }}
-                  target="same"
-                >
-                  here.
-                </Link>
-              </p>
-              <h3>History of Dirtbikes</h3>
-              <p>
-                Want to read more about the origins of these two-wheeled
-                machines? Do so{" "}
-                <Link
-                  to={{
-                    pathname:
-                      "https://www.dirtbikeplanet.com/who-invented-the-dirt-bike/"
-                  }}
-                  target="same"
-                >
-                  here.
-                </Link>
-              </p>
-              <h3> Broke something? </h3>
-              <p>
-                Looking for parts?{" "}
-                <Link
-                  to={{
-                    pathname:
-                      "https://www.rockymountainatvmc.com/parts/dirt-bike"
-                  }}
-                  target="same"
-                >
-                  RockyMountainATV
-                </Link>
-                has a wide selection of parts for almost any bike you own!
-              </p>
-            </div>
+          </div>
+          <div id="sidebar" class="table-cell">
+            <h3>Supercross Standings</h3>
+            <p>
+              View Current Monster Energy Supercross Statndings right{" "}
+              <Link
+                to={{
+                  pathname:
+                    "https://www.supercrosslive.com/championship-standings"
+                }}
+                target="same"
+              >
+                here.
+              </Link>
+            </p>
+            <h3>History of Dirtbikes</h3>
+            <p>
+              Want to read more about the origins of these two-wheeled machines?
+              Do so{" "}
+              <Link
+                to={{
+                  pathname:
+                    "https://www.dirtbikeplanet.com/who-invented-the-dirt-bike/"
+                }}
+                target="same"
+              >
+                here.
+              </Link>
+            </p>
+            <h3> Broke something? </h3>
+            <p>
+              Looking for parts?{" "}
+              <Link
+                to={{
+                  pathname: "https://www.rockymountainatvmc.com/parts/dirt-bike"
+                }}
+                target="same"
+              >
+                RockyMountainATV
+              </Link>
+              has a wide selection of parts for almost any bike you own!
+            </p>
           </div>
         </div>
       </div>
