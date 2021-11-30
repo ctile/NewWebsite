@@ -112,9 +112,3 @@ a.hover {
   color: lightblue;
   transition: 500ms;
 }
-
-@media print {
-  body {
-    font-family: webdings, fantasy;
-  }
-}
