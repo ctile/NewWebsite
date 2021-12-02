@@ -128,6 +128,9 @@ function Home() {
                 here.
               </Link>
             </p>
+            <br />
+            <br />
+            <br />
             <h3>History of Dirtbikes</h3>
             <p>
               Want to read more about the origins of these two-wheeled machines?
@@ -142,6 +145,9 @@ function Home() {
                 here.
               </Link>
             </p>
+            <br />
+            <br />
+            <br />
             <h3> Broke something? </h3>
             <p>
               Looking for parts?{" "}
@@ -154,6 +160,39 @@ function Home() {
                 RockyMountainATV
               </Link>
               has a wide selection of parts for almost any bike you own!
+            </p>
+            <br />
+            <br />
+            <br />
+            <h3> Dirt Bike Magazine </h3>
+            <p>
+              Take a look at{" "}
+              <Link
+                to={{
+                  pathname:
+                    "https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwitjr-95MX0AhUZkYkEHVmoDZsQFnoECBEQAQ&url=https%3A%2F%2Fdirtbikemagazine.com%2F&usg=AOvVaw2RHCsslIBmzRbJBqiGK9FN"
+                }}
+                target="same"
+              >
+                Dirt Bike Magazine.
+              </Link>
+              It's first issue was released in June of 1971!
+              <br />
+              <br />
+              <br />
+            </p>
+            <h3> Dirt Rider </h3>
+            <p>
+              Take a look at{" "}
+              <Link
+                to={{
+                  pathname:
+                    "https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjL8dyz4sX0AhUhlYkEHf8YAe8QFnoECBEQAQ&url=https%3A%2F%2Fdirtbikemagazine.com%2F&usg=AOvVaw2RHCsslIBmzRbJBqiGK9FN"
+                }}
+                target="same"
+              >
+                Dirt Rider Magazine.
+              </Link>
             </p>
           </aside>
         </div>

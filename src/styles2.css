@@ -10,6 +10,10 @@
 #landing ul {
   font-family: courier;
 }
-#sidebar p {
+aside p {
   font-family: courier;
+}
+nav {
+  font-family: courier;
+  font-size: 125%;
 }
