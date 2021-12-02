@@ -73,6 +73,11 @@ aside {
   width: 200px;
   padding: 20px;
 }
+footer {
+  background-color: #1a2588;
+  border: 4px solid rgb(255, 255, 255);
+  border-radius: 50px;
+}
 #copyright {
   color: red;
 }
