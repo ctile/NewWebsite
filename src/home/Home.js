@@ -180,6 +180,7 @@ function Home() {
               <br />
               <br />
               <br />
+              <br />
             </p>
             <h3> Dirt Rider </h3>
             <p>
