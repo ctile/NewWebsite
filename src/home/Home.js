@@ -9,18 +9,34 @@ import ThumbnailLink from "./ThumbnailLink.js";
 
 function Home() {
   return (
-    <div>
+    <body>
       <header>
         <h1 id="top">
           MotoMania <br /> <q>Find the bike for you</q>
         </h1>
       </header>
 
+      <nav>
+        <ul>
+          <li class="home">
+            <a href="/home.html">HOME</a>
+          </li>
+          <li>
+            <a href="/moto/moto.html">MOTO</a>
+          </li>
+          <li>
+            <a href="/trail/trail.html">TRAIL</a>
+          </li>
+          <li>
+            <a href="ebike/ebike.html">EBIKE</a>
+          </li>
+        </ul>
+      </nav>
       <br />
 
       <div class="table">
         <div class="row">
-          <div id="body" class="table-cell">
+          <div class="table-cell">
             <section id="moto">
               <Link to="moto/moto.html" title="Motocross Dirt Bikes">
                 <h2>Motocross</h2>
@@ -98,7 +114,7 @@ function Home() {
               </p>
             </section>
           </div>
-          <aside id="sidebar" class="table-cell">
+          <aside class="table-cell">
             <h3>Supercross Standings</h3>
             <p>
               View Current Monster Energy Supercross Statndings right{" "}
@@ -153,7 +169,7 @@ function Home() {
 
         <p id="copyright">&copy; MotoMania 2021</p>
       </footer>
-    </div>
+    </body>
   );
 }
 export default Home;
