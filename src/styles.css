@@ -18,7 +18,7 @@ body {
   display: table-cell;
   vertical-align: top;
 }
-#header {
+header {
   background-color: #1a2588;
   margin: 10px 10px 0 10px; /* removes bottom margin which does not collapse with top border-spacing */
   height: 160px;

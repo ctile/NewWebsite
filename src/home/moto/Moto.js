@@ -5,7 +5,7 @@ import ThumbnailLink from "../ThumbnailLink.js";
 
 function Moto() {
   return (
-    <div id="landing">
+    <section id="landing">
       <h1>MotoMania - Motocross </h1>
       <ThumbnailLink
         lowResThumb={motoT}
@@ -68,7 +68,7 @@ function Moto() {
       <br />
 
       <Link to="../home.html">Back to home page</Link>
-    </div>
+    </section>
   );
 }
 export default Moto;

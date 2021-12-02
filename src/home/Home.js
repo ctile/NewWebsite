@@ -10,18 +10,18 @@ import ThumbnailLink from "./ThumbnailLink.js";
 function Home() {
   return (
     <div>
-      <div id="header">
+      <header>
         <h1 id="top">
           MotoMania <br /> <q>Find the bike for you</q>
         </h1>
-      </div>
+      </header>
 
       <br />
 
       <div class="table">
         <div class="row">
           <div id="body" class="table-cell">
-            <div id="moto">
+            <section id="moto">
               <Link to="moto/moto.html" title="Motocross Dirt Bikes">
                 <h2>Motocross</h2>
               </Link>
@@ -45,11 +45,11 @@ function Home() {
                 dirt bikes, saving you search time! Take a look at each brand to
                 find the best moto bike for you.
               </p>
-            </div>
+            </section>
 
             <br />
 
-            <div id="trails">
+            <section id="trails">
               <Link to="trail/trail.html" title="Trail Dirt Bikes">
                 <h2>Trail/Off-road</h2>
               </Link>
@@ -71,11 +71,11 @@ function Home() {
                 saving you search time! Take a look at each website to find the
                 best trail bike for you.
               </p>
-            </div>
+            </section>
 
             <br />
 
-            <div id="ebike">
+            <section id="ebike">
               <Link to="ebike/ebike.html" title="Eletric Dirt Bikes">
                 <h2>E-Bikes</h2>
               </Link>
@@ -96,9 +96,9 @@ function Home() {
                 for ebikes, saving you search time! Take a look at each website
                 to find the best ebike for you.
               </p>
-            </div>
+            </section>
           </div>
-          <div id="sidebar" class="table-cell">
+          <aside id="sidebar" class="table-cell">
             <h3>Supercross Standings</h3>
             <p>
               View Current Monster Energy Supercross Statndings right{" "}
@@ -139,18 +139,20 @@ function Home() {
               </Link>
               has a wide selection of parts for almost any bike you own!
             </p>
-          </div>
+          </aside>
         </div>
       </div>
       <br />
       <br />
       <br />
 
-      <p>
-        <a href="#top">Back to top!</a>
-      </p>
+      <footer>
+        <p>
+          <a href="#top">Back to top!</a>
+        </p>
 
-      <p id="copyright">&copy; MotoMania 2021</p>
+        <p id="copyright">&copy; MotoMania 2021</p>
+      </footer>
     </div>
   );
 }

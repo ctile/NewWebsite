@@ -5,7 +5,7 @@ import ThumbnailLink from "../ThumbnailLink.js";
 
 function Ebike() {
   return (
-    <div id="landing">
+    <section id="landing">
       <h1>MotoMania - E-Bike </h1>
       <ThumbnailLink
         lowResThumb={ebikeT}
@@ -38,7 +38,7 @@ function Ebike() {
       <br />
 
       <Link to="../home.html">Back to home page</Link>
-    </div>
+    </section>
   );
 }
 export default Ebike;

@@ -5,7 +5,7 @@ import ThumbnailLink from "../ThumbnailLink.js";
 
 function Trails() {
   return (
-    <div id="landing">
+    <section id="landing">
       <h1>MotoMania - Trail </h1>
       <ThumbnailLink
         lowResThumb={trailT}
@@ -68,7 +68,7 @@ function Trails() {
       <br />
 
       <Link to="../home.html">Back to home page</Link>
-    </div>
+    </section>
   );
 }
 export default Trails;
