@@ -67,7 +67,7 @@ nav a:link {
 }
 aside {
   background-color: #0130caab;
-  border: 4px solid rgb(255, 255, 255);
+  border: 4px dashed rgb(255, 255, 255);
   border-radius: 50px;
   margin: 0px 10px 10px 10px;
   width: 200px;
